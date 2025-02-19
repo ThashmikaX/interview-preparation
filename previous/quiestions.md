@@ -37,7 +37,7 @@ An efficient algorithm to sort the binary string(1,1,1,0,0,1,0,1,0,1,0,0,1)
 Evaluating 2 classifier models with imbalanced data"
 OOP concepts, implementation of OOP concepts (screen shared), linked list, binary tree, AVL tree,,An efficient algorithm to sort the binary string(1,1,1,0,0,1,0,1,0,1,0,0,1), linked list vs array,
 Asked about final year project(neural networks),Asked about third year project(lot of questions were based on this),asked to create a table for a user(screen shared),SQL query for the table,Why we need oop,Dependency injection in Angular
-"Difference between c and c++, Compiler vs Interpreter, FYP project,
+Difference between c and c++, Compiler vs Interpreter, FYP project,
 DB normalization , Algorithm/ pseudo code to get the missing
 prime number of a given prime number array. "
 What are the ways to stop an object from instantiating.
@@ -45,9 +45,7 @@ ACID properties
 difference between http and rest api
 some simple question regarding SOAP, REST API and HTTP protocols
 Why did React gain more popularity over the years?
-how to find the missing value in array that contains numbers from 1 to 100
-If there are 2 buckets that contains same set of numbers but 2 are missing from
-one bucket, how do you find those 2 numbers? (hashtable)
+
 difference between stacks and queues.
 gave simple scenarios and asked what data structure to use?
 standards for writing rest api requests?

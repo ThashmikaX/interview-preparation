@@ -9,3 +9,4 @@ Deadlock and how to avoid
 Java dependency injection
 Java (Why use String.equals() to compare Strings)
 Code to get missing number in an array, enum in Java, hash map, try catch, and other java knowledge
+What are the ways to stop an object from instantiating.

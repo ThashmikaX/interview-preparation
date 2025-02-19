@@ -200,3 +200,4 @@ Would you like me to include these in the LaTeX document or add any other specif
 What is React Virtual Dom
 react stateless componet
 what is redux
+Why did React gain more popularity over the years?
