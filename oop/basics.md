@@ -24,3 +24,7 @@
     This is part of encapsulation, a key OOP concept we’ll cover in more detail next.
 
 Abstract vs Interface
+
+What is single responsibility principle
+Why use single responsibility
+Advantages of inheritance hierachy

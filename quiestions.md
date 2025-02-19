@@ -48,49 +48,29 @@ Why did React gain more popularity over the years?
 
 difference between stacks and queues.
 gave simple scenarios and asked what data structure to use?
-standards for writing rest api requests?
-difference between get and post request?
-what is the use patch request?
-Asked whether I knew about agile methodologies?
-Role of a SCRUM master?
-What are the events in a Sprint?
+
 Projects I have done
 My interests
 FYP"
 selected a project from the cv and told to explain it
-asked why did you choose the languages and databases you used
-why mysql without dynamodb or mongodb
-what would you consider when choosing a db
+
 which project had the most lines of code
 explain fyp
 differences and similarities between c++, javascript, python, java
 asked about memory allocation and dealloc in cpp and java- didnt know much about it
 write a pseudo code for memory management - dealloc and alloc
-Describe Linked Lists
-Compare linkedlists vs array
-How to get the 5th element from the end of the linkedlist
-Most suitable data structure to get the max value of a item set, time complexity given is O(1)
+
 How to compare models when the dataset is imbalanced
 explain a project you are familiar
 draw the highlevel architecture diagram of the project
 reasoning behind choosing the technologies
-why mysql, why use rest api
-other communication methods you know (rest and soap)
-rest url and status codes -> 200 for success, /books for adding a resource
-what is a transaction in mysql
-ACID properties
-SQL - queries -> count and groupby one table
-count and grouby with join
+
 explain oop concepts with java
 showed an interface and asked whats wrong with it (it had private members)
-threads vs process
-how to creare threads in java
-when multiple threads access a variable what problems can happen - inconsistent state
-how can we remedy - use synchronization
+
 tell about design patterns you know and have you used them in projects
 asked why do you use builder pattern (because i said i know builder pattern)
 Do you know about chain of responsibility design pattern.
-asked difference between array and arraylist, arraylist and linkedlist
 explain stack and queue
 how would you solve balanced paranthesis problem (tell verbally)
 "Explain how to solve a question that was given(reordering of a linked list- https://drive.google.com/file/d/1Sft0lvJw_8LyZNwArVsL9zuLwVNy_8Sf/view?usp=sharing )
@@ -100,10 +80,7 @@ Why is singleton used? When is it necessary to have just one instance?
 About SOLID
 The programming languages that I know
 About the FYP
-How to decide whether to use SQL or NoSQL for a project?
-What are the disadvantages of SQL approach as it reduces redundancy?
-Selecting which attributes are suitable for indexing(the ones that get queried the most)
-Why dont we apply indexes for everything/every attribute? "
+
 "Explain a project you are familiar with they said the final year project is also okay.
 Asked question based on final year research.
 How dataset is collected?
@@ -111,68 +88,50 @@ How to improve the performance?
 What kind of models you have trained?
 How do you increase the size of the dataset?
 Gave a scenario based on data analysis and draw a component diagram for that. Scenario - Extracting Twitter data and analyzing it and visualizing it in the dashboard. They needed to check the interaction of components. Then change the scenario to have a real-time connection, to have in-house dashboard, what is the datastore you select?
-what kind of database you choose relational or NoSQL and why?
-Difference between NoSQL and Relational? when to use?
+
 Few more questions on the scenario.
-Implement a program to get the two largest numbers in an integer array.
 OOP concepts. Explain polymorphism
-Multiple inheritance?
-why java doesn't support multiple inheritance?
-Draw ER diagram of Customer purchase products via orders scenario.
-Explain interactions write an SQL query
-What would you do if the product table have millions of records and you have to find a product?
-What would you suggest as a solution if failure occur while purchasing the Order table got updated and the product count didn't change due to failure?
+
 Design Patterns you know. Explain Singleton
 Where does this one object instantiate and how?
-what are the cloud technologies you know? what are the services?
-Do you familiar with DevOps- Kubernetes, Docker, CI/CD?
+
 What are the Software development methodologies familiar with? Explain"
 "explain a project you are familiar
 reasoning behind choosing the technologies
+
 explain user authentication (asked whether my project had that component)
 how do you connect to the database
-HTTP methods - get, post, put/ delete
-rest url and status codes -> 200 for success, /books for adding a resource
-ACID properties
+
 Gave a scenario to draw an ER diagram (movie producing)
 write the database schema (tables with attribute, primary keys, foriegn keys)
 SQL - queries -> regarding the given scenario
 normalization
 explain oop concepts with java - draw a class diagram for animal kindom
 regarding what i draw asked question (abstract classes/ interface/ concrete classes)
-multiple inheritance
-how do you handle asynchronous situation
-threads vs process
-deadlocks
-asked difference between array and arraylist, arraylist and linkedlist
+
 explain stack and queue | differences | operations
 explain familiar sorting algorithm
 its time complexity
 React props/ states
 question regarding JSX
-agile methodologies
-sprint events
-questions regarding sprint planning"
+
 "technologies that I am familiar with
 Asked about intern projects
 technology related question based on internship projects
-java vs python
-reverse an array
-JRE , compiler, interpreter related questions
+
 React Lifecycle, Projects I have done so far, Versions of React and Node with their new features, Given a problem of frontend and how I'm gonna handle, NodeJs frameworks I have used, Redux, Asked to explain what I did on a project to get a high level idea and asked questions related to technogolies and frameworks I have used
 questions on intern(Intern tasks),final year project(asked about the approach),Algorithm for find the missing prime number in a prime unsorted array,Promises in React
 "Asked about the previous projects
 Technologies used in internship projects
 Angular Ivy
 Using traditional servers vs serverless platforms
-Difference between Java and JavScript
+
 Multithreading "
 "Intern Project and data modeling (JSON format vs structured)
 What is the database type (Relational vs Document) and why do you choose that (from intern project)
 What is your language of preference: Java or NodeJS, Rank your knowledge
 What is the Promise API (NodeJS) equivalent in Java
-Is NodeJS single-threaded
-NodeJS event loop concept and how it works - tell the order of execution of the given set of statements including a Promise
+
 Find the missing Prime number in a given Prime number array and time complexity of your solution and how to optimize"
 Explain one of the project you did, draw a class diagram for that.
 OOP concepts and how it used in the project
@@ -183,31 +142,22 @@ React vs angular, React virtual dom, Java strings(== vs equals),
 Diamond problem, Java interface and how it solve the multiple inheritance problem
 How to find the number that picked from a bucket ,
 how can you improve time complexity in that?
-Rest apis, PUT vs POST vs PATCH
+
 FYP, how the dataset collected and model building happens"
 more about Oop, more about spring boot, multithreading, reverse the array , research project , intern projects, Collections
 "Intern project , Intern works
-Spring Annotations
-static method implementation
-spring bean , design patterns
-More about spring boot stuffs , spring security
+
 Java questions"
 "How to check if a linked list is a palindrome
-What is single responsibility principle
-Why use single responsibility
-Advantages of inheritance hierachy
+
 sql vs nosql, and how would you choose a database
 Any aws services you know
 asked what language is familiar and asked a question from it
-said js -> diff between ==,===, and var vs let
+
 any design patterns you know and have you used any in your projects"
 Ask to describe about a intern project
 asked about highlevel archetecture of that project
-Asked about AWS related things used in that project
-Asked about why use Elastic search, Elastic Search index , what is the search engine used in Elastic search etc
-Asked about DyamoDB, why choose dynamoDB, NoSql databases, types of NoSql databases, what type is dnamoDB etc
-Asked why used S3 , how to deploy a project in S3
-Asked about any related projects worked with EC2 ,how to log into EC2- ec2 ssh
+
 Since I use React asked basic concepts such as state, useState, useEffect etc
 Asked wheter I have used Redux, Docker
 Give a scenario order,products and customers -> draw ER , map to tables and a query
@@ -215,9 +165,7 @@ Asked about OOP concepts in java
 Said about headers in C and asked wheter it has encapsulation
 Asked about java access modifiers, difference between default and protected
 Asked about a constructor to be private, what is the effect of it., use of private constructor -> for singlethon, then write the psuedo code for singlethon
-final,finally and finalize in java.
-asekd about java abstract classes,interfaces
-how to implement threads in java, what is the difference of these 2 approaches
+
 serilizable interface, asked about its methods-> it has no methods . it is a marker interface
 FYP,Intern Project, OOP, Asked to write a optimal code to return T or F if the number <5
 "What version JS do you use? Asked what is new in ES6? What is different from arrow function and function keyword? What is Virtual DOM? Why is meant by node being single threaded? What is Mongo? Can you use indexing in mongo? Hooks gana ahuwa,OOP
@@ -226,30 +174,16 @@ throws clase,try catch
 Aksed about the internship projects, research project also
 Explained yourself. React Hooks, Event Loop, OOP Concepts and explain them using java, Draw a ERD and Optimized it, SQL Queries for it, Asked questions about data structures and mainly about stacks, Pseduo Code for given to problems, Asked time complexity for them and asked to optimize them. Ask time complexity for best case and worst case, Difference between Interfaces and abstract classes. Linux commands, Asked from me that I know Devops, had a very long conversation about FYI, asked about agile methodologies and scrum, Asked about internship project and what I did in the internship period, Help us after asking questions and was very friendly. Asked subjects which I have learned through out the degree. Avoid asking react and nodejs questions after asking if I'm familiar with node and react, because I said yes and answered a question.
 Since my FYP is about the networking, they have asked me some related questions about the networking(TCP Handshake, OSI Model etc)
-What is the meaning of single thread in node js
-What is the Eventloop in nodejs
-What are the hooks in React
-What hook can u use to call external API
-How do u implement useEffect
-How can u pass the data between components
-What is redux
-Is there alternatives to redux and what are they
-Why we use redux instead of the others
-What is the latest version of React
-What is JWT token
-How can we use JWT token
-How can contain data in the JWT token
-Have you used indexes in mongodb"
+
 describe about intern work,asked questions on REST APIs,decribe about final year project,simple algorithm to check whether a number is larger than five and enhance it.
 Internship project , TLS handshake, difference between var let and const, how Node JS handle errors, finally block
 "The assignment that i got was one that in their tutorial - https://www.youtube.com/watch?v=Ll8e4K4lTj0
 After completeing the assignment you have to turn on your video and answer 3 questions
 (for the assignment you don't need to turn on your video)
-Teach a kid difference between abstraction and inheritance
 What is good, left join or inner join
 The latest tutorial you watch or read and what you learn from it
 For every questions we get three attempts and for each attempt time limit is 2min"
-Explain FYP, Lot of questions from Intern Project, OOP, Design Patterns.How singleton works Asked to write a optimal code to return T or F if the number <5,Reverse String
+Explain FYP, Lot of questions from Intern Project, OOP, Design Patterns.How singleton works Asked to write a optimal code
 "The assignment that i got was one that in their tutorial - https://www.youtube.com/watch?v=Ll8e4K4lTj0
 After completeing the assignment you have to turn on your video and answer 3 questions
 (for the assignment you don't need to turn on your video)
@@ -259,33 +193,28 @@ The latest tutorial you watch or read and what you learn from it
 For every questions we get three attempts and for each attempt time limit is 2min"
 This is the assessment: https://pastebin.com/JRKibRW1
 They had a simple template with one input, button and couple of links
-Practice DOM manipulation before doing the assessment (Event binding, removing and adding nodes, changing html attrivutes, etc)
-"how to find if a linked list is a palindrome (using stack method)
+
 what are the OOP concepts
 what happens in inheritance
 what is the connection between inheritance and polymorphism
 any familiar design patterns (singleton)
 what happens in singleton
-why don't we initiate two database connections
-if you have to select a database for a project what aspects are you looking for when selecting out of relational or NoSQL
+
 what does single responsibility principle mean
+
 how did you deploy the projects
 what are your familiar cloud services
 why don't people use cloud functions for every project
-difference between threads and processes
-difference between multiple programming languages (java, c++, JavaScript)
-is it good to have huge number of threads rather than having a few threads for a process and the reason for the answer"
+
 What do you know about OOP (4 basic OOP concepts)
 Have you used OOP in your projects? If so how?
 Difference between abstract and interface classes
 Any frontend technologies that you are familiar with?
 Any design patterns that you have used in your projects?
-What do you know about SQL left join?
+
 Write a psudo code to print the below pattern? (right aligned triangle star pattern)
 Where did you do your internship?
-Were you in a scrum team (did you follow agile methodologies)
-Using that explain scrum? (I explained the team structure and scrum ceromonies)
-Were you directly working with customers?"
+
 oop in used in your projects
 design pattern you know
 abstract class vs interfaces
@@ -293,14 +222,7 @@ many to many relationship how to map
 reverse an array
 any cloud technologies do you know
 frontend technologies that you are familiar"
-Familiar languages (JS)
-JS versions
-Pure functions
-How to sort an object in js (Sort function)
-How to encrypt sensitive information (HTTPS, certificates)
-How to distribute java and Node.js application
-AWS (ec2)
-How to run Node.js application in ec2
+
 Unit testing in js (mocha)"
 why use mongo over SQL in your projects
 what are the NoSQL DB types you know
@@ -313,25 +235,20 @@ what is inheritance
 why we use inheritance
 what is encapsulation
 how to achieve encapsulation and why we use it?
-how multi-threading is achieved in java
-difference between runnable interface and thread class
-what you mean by thread safety?
-how to achive thread safety
-do we have to look for thread safety in every program we use multithreads (read only programs are okay)
-what are deadlocks, livelocks, and starvation"
+
 "Went through all the projects mentioned in the CV in-depth
 Technical questions related to technologies I have worked with (Docker, AWS, APIs etc)
 Asked about project in github and describe some
 Asked about extra projects done separate from uni and intern and their use cases
-They mainly built the interview with answers I gave and was based on the content in the CV)
+They mainly built the interview with answers I gave and was based on the content in the CV
+
 FYP, Where I interned and what I did,What programming langage are you familair with, Java vs NodeJS, What does finally keyword refer to in Java and javascript,pseudocode or code for finding longest pallindrome in a string
 Intern project , the oop concepts used there. algorithm to reverse a string, an iq question, java threads example, class diagram, sql tables for a given scenario,java versions, oop examples. (a friendly conversation which flow was based on the answer for the previous question)
 Research project
-Event loop, Hoisting, Closures (JS concepts)
+
 SQL vs NOSQL. Why NOSQL?
 Encryption, Hashing
-Callback, promises, async await "
-Whether I'm familiar with Linux. How you prerare if you have to use linux in the company environmet.
+
 If a user complain about a failure in the application how you are going to check it.
 The assignment that i got was one that in their tutorial - https://www.youtube.com/watch?v=Ll8e4K4lTj0
 After completeing the assignment you have to turn on your video and answer 3 questions
@@ -347,21 +264,12 @@ Then asked why we use inheritance and advantage of it
 Single responsibility principal
 After explaining it asked why use only one function in single responsibility principle when we can have multi functions
 Asked difference between C++ and Python (this depends on the technologies you have in cv )
-Thread vs Process
-If using multi thread architecture what are the requirements to look into
-Why using huge number of multi threads is a disadvantage
-SQL vs NoSQL
-How to choose a db
-Why normalized databases are good
+
 Then projects done with node and how I deploy them
 Difference between containerization and virtual machineso"
 "Describe about OOP
 Have you used OOP in your projects
-What types of databases you know / use
-What are relations you have defined in your project (from one of the projects - ask to select) - said SQL
-Explain relationships among said relations
-What type of multiplicity they consists of
-How to handle many to many relationships
+
 Do you know any Design patterns
 Explain Singleton pattern (said), how you implement
 What is your language preference ask following questions,
@@ -382,18 +290,15 @@ What is F1 score?"
 how to reverse a linked list between 2 given positions
 Advantages of inheritence
 Advantages other than data validation when using setters and getters in encapsulation
-Transactions in spring boot"
 
 Questions about the internship project
 2nd year project, contribution
 How authentication was done in the 2nd year project
-React promises
-Questions about react
+
 OOP Concepts and examples
 Client Server Architecture
 GitHub commands
 Print prime numbers in Node(told I'm not familiar and did in Python)
-Types of Exceptions
 Describe about intern expereince and final year project.Gave a scenario and asked questions on it.(what are the components,what are the basic parts of the project,what kind of database will be good,how to manage entities properly),describe about REST APIs
 Lot of questions from reserach project. Outh 2, Fibonacchi numbers, OOP,Given a code ask the output,write a code to dectect the first non repeating character from string,Singleton Pattern (Had to write lazy,eger instaion code, als thread safe 2 ways),final,finalze finally diffrence
 Porjects in CV
@@ -420,8 +325,6 @@ do you know parity bit
 gave data structures related practical scenario and asked to write the psuedo code for that"
 what is the the programming language you're most comfortable with?
 how to you handle errors in your code?
-what frameworks do you use for unit testing?
-git question - you're working on a branch but before completing you have to work on some other task in a different branch. how do you handle it without breaking the code?
 sql questions:
 how do you ensure the integrity of a sql database?
 what is the difference between left join and inner join?
@@ -429,8 +332,7 @@ what are the ways memory is allocated for variables and functions in C/C++?
 what is a tensor?
 describe stacks, queus, graphs
 programming questions:
-given a sum of money n fine the minimun number of coins that need to be dispensed
-reverse array without using a temp variable
+
 given a string find the length of the largest substring without any repeating characters e.g: - abccccadcc -> 3 abc, cad
 given an array of length n and an integer m, return the elements greater than n/m
 open a file and output the count of each word in the text file"

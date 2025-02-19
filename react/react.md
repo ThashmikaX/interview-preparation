@@ -201,3 +201,14 @@ What is React Virtual Dom
 react stateless componet
 what is redux
 Why did React gain more popularity over the years?
+What are the hooks in React
+What hook can u use to call external API
+How do u implement useEffect
+How can u pass the data between components
+What is redux
+Is there alternatives to redux and what are they
+Why we use redux instead of the others
+What is the latest version of React
+Practice DOM manipulation before doing the assessment (Event binding, removing and adding nodes, changing html attrivutes, etc)
+React promises
+Questions about react
