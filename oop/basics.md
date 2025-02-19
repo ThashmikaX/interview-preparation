@@ -22,3 +22,5 @@
     A big difference between OOP and non-OOP is that an object
     should expose behavior and hide most or all of its data.
     This is part of encapsulation, a key OOP concept we’ll cover in more detail next.
+
+Abstract vs Interface

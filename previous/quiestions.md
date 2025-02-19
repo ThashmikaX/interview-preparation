@@ -1,71 +1,27 @@
-Code to get the duplicate element of an array
-quick sort
-bubble sort
-DB normalization
-Design patterns, implement singleton pattern using java
-abstraction
-java interface
-What is React Virtual Dom
-Name some Design patterns, Whats bubble sort do?
-Explain design patterns and how were they used in a project
-OOP(constructors,encapsulation etc)
-Explain a sorting algorithm - time space complexity
-Polymorphism
-Exceptions
-OOP concepts
-Design Patterns
-SQL indexes
-Solve JAVA code snippets
-stack and heap
-Difference between int and String
-OOP Concepts, Design patterns, SQL queries
-OOP Concepts, Design patterns, Research project,Threads, Synrconziation,GSOC ,array reverse, Implent Design Pattern,IQ question(Google Meet Interview)
-Internship project, Research, DSA questions (Binary tree and Binary search), Normalization
-OOP Concepts, array reverse, Internship Project, Research, Design Patterns, SQL queries
-"How to store password, salt hashing, polyphorism,
-how to compare two strings in java,
-why use equals method instead of == for string compare
-react stateless componet
-what is redux
-parenthesis checking with pseduo code
-Testcases
-bug reporting
-non-functional testing
-mobile testing
-smoke testing
-Internship project and Research project and the related technologies, models and different techniques used in them  
-Design patterns and use cases
+Internship project and Research project and the related technologies, models and different techniques used in them
+
 Why certain pattern chosen? comparison with other patterns
 Singleton pseudocode
 Pseudocode to given algorithm
-Indexing and Primary key
-ACID
-SQL & NOSQL
-Final year project , Internship projects, Abstract vs Interface, Normalization, How to identify median in an unsorted array, Deadlock, Disadvantages of normalization
+
 Final Year project and asked about the technologies
 Technologies used in Internship
-Java dependency injection
-Abstract vs Interface
-Database normalization
-disadvantages of a normalization
-Deadlocks and how to avoid deadlocks
+
 Given a scenario and asked about the data structure to use
-why use mongoDb?
-OOP Concepts (Abstraction, Encapsulation, Inheritance, Polymorphism)
+
 Intern Project
-Java (Why use String.equals() to compare Strings)
 Difference between Interfaces & Abstract classes
 From an array of integers how to find the number pairs which has the sum of 5 (and optimize this).
 Microservices vs Monolithic
 MySQL Queries (Inner Join)
 OOP Concepts Abstraction, Encapsulation, Inheritance, Polymorphism
 Intern Project
-Java (Why use String.equals() to compare Strings)
 Difference between Interfaces & Abstract classes
 Parentheses problem write psedo code
+
 MySQL Queries (Inner Join)
 Code to get missing number in an array, enum in Java, hash map, try catch, and other java knowledge
-FYP and related concepts, OOP, Passowrd hashing process, Project Architectures, SQL Queries, Psudo Code for a given problem
+FYP and related concepts, OOP, Passoword hashing process, Project Architectures, SQL Queries, Psudo Code for a given problem
 OOP concepts, implementation of OOP concepts (screen shared), linked list use case, simple array usecase, abstract class in c++, stack , heap, virtual function
 OOP concepts, implementation of OOP concepts (screen shared), linked list, virtual function
 Why firebase, firebase over mongodb, websockets , java vs javascripts,Find second largest number in array pseudocode,
