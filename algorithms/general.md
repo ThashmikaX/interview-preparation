@@ -12,3 +12,5 @@ Implement a program to get the two largest numbers in an integer array.
 to return T or F if the number <5,Reverse String
 given a sum of money n fine the minimun number of coins that need to be dispensed
 reverse array without using a temp variable
+given a string find the length of the largest substring without any repeating characters e.g: - abccccadcc -> 3 abc, cad
+given an array of length n and an integer m, return the elements greater than n/m

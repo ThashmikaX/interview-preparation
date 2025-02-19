@@ -333,8 +333,6 @@ what is a tensor?
 describe stacks, queus, graphs
 programming questions:
 
-given a string find the length of the largest substring without any repeating characters e.g: - abccccadcc -> 3 abc, cad
-given an array of length n and an integer m, return the elements greater than n/m
 open a file and output the count of each word in the text file"
 Asked questions about the final year research project and other ML projects I have done.
 Pure functions, Gave a scenario and ask how Im gonna handle REST, Java Script versions, Asked about Linux and commands I use, What technologies I have used to deploy projects, What are my more experience areas, Asked how about my java knowledge, Asked about javascripts libraries, Asked what javascript frameworks I have used, Asked what technologies I have used and then after asking only little questions from them, then started asking questions from other technologies to check whether which extend I have know them
