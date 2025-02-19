@@ -7,3 +7,5 @@ Self Introduction, Blogging, Passion for SE, Why WSO2
 Tell me about yourself thats not in CV, UI Engineer or Full stack Engineer (Preferences)
 what yo know about the company and what they do?
 Tell me about your self, Why wso2?, Any questions
+what you know about the company, family background
+gsoc or any other projects than university stuff, extra curriculr , leadership and other special things I have done, why not company I did intern

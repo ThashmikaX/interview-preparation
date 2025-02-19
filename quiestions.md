@@ -345,23 +345,11 @@ Write code to roatate string for a given number and optimized it,
 Two IQ questions (Orange scaling problem, and handshake problem)
 Familiar with docker or not?"
 About FYP
-Have you used Scrum or any PM method in your Intern Project
-Have you used OOP in your projects
-What is Inheritance
-Does Java support multiple inheritance
-What is the alternative to do do the Multiple Inheritance
-What is a abstract class
-Difference between abstract class and interface
-Why do we need abstract classes
-What is a concrete implementation of a method
+
 Two IQ questions were asked
-Flower and Lake problem
-Three labeled buckets problem
-Write an algorithm to find all the combinations of an array elements - an array consists of 3 elements
+
 What would you do if the project manager/team lead ask you to do a R&D task while doing some work related to the current sprint. And both task are time critical and important. How do you handle this
-What is the difference between VueJS and ReactJS
-What is a Single Page Application - SPA
-What React Virtual DOM
+
 Difference between a Compiler and an Interpreter"
 Explain your FYP
 Case Study
@@ -463,33 +451,26 @@ Different between abstract classes and interfaces . Can we have objects from the
 Explain encapsulation
 Why we use encapsulation how to achive it
 method overloading and overridden with real world scenarios
-What are the frontend techs u have used
-Then some questions on angular (featues,components,command for create component)
-Some questions on react(advantages,virtual DOM,Real DOM , functional and class component)
+
 Small scenario and design a database and reasons
 Asked a sql query based on the scenario
 Gave a java code and asked the output
 IQ question
-(You have 9 balls, equally big, equally heavy - except for one, which is a little heavier.
-How would you identify the heavier ball if you could use a pair of balance scales only twice?)"
+
 sorting algo and implementation of quick sort, advantages and disadvantages of DB normalization, array related algorithms
 Asked question from two projects in CV, Questions from what I did in internship
 Explain OOP from one of your project, Explain design patters from projects,
 Why MongoDB (projects)? SQL vs NoSQL, Normalization (1NF, 2NF), ACID,
-Swap two unsigned integers without tempory variable.
+
 What is API, Explain Rest API from one of my project, Any knoweledge of wso2 products/ hands on?
 Familiarity with Docker, Kubernetees"
 OOP concepts,Bubble sort explain, merge sort write algo, lot of questions from abstract class and interfaces,Normalization (1NF, 2NF),Primary key qualities,aggregation vs composition,joins,Write a sql query to get intersection of tables without joins(intersection keyword),FYP explain
 how to implement a signup/login in high level
-why use JWT
-JWT token structure
-rest principles
-HTTP verbs and appropriate status codes for scenarios
+
 difference between patch and put
 what type is database is suitable for the given scenario
 how to scale a system
-how to store passwords?
-what is the purpose of using salt
+
 what is the diff between microservices and monolithic archi
 advantages of both of them
 what type of architecture would you prefer for a given scenario and why"
@@ -501,16 +482,13 @@ why use those technologies
 what is the software archietecture
 how will you enhance user experience in the application
 database to use for the given scenario and why?
-asked about REST
+\
 Explain one OOP concept and where you've used it
 Showed simple an example on inheritence and asked questions(object instantiation using super class references, whether cross inheritence object creation is allowed or not)
 Gave me an example of a farm and animals and asked me to write a code snippet to represent them.(polymorphism and inheritence)
 Asked about data structures to store the objects.(hashtables and arraylists)
 network questions about how to ensure that the payload is authentic(parity bits)
-ACID properties
-where to store the primary key in a one to many scenario
-write a sql query to a given scenario (sorting)
-when to use sql and nosql databases
+
 difference between data definition languages and data manipulation languages
 about FYP
 about internship project
@@ -518,15 +496,13 @@ Questions regarding what I did in my intership, technologies used,
 Familiar languges
 Projects I have done. Show web application project part (Github)
 OOP concepts
-Algorithm to get largest prime number in an array and explain it
 deadlocks, livelocks, threads,fyp, project architectures,stacks and queues, algorithm for a given problem
 internship works, what does mean by RESTful, can we create something using GET method ?, Describe all OOP concepts, runtime polymorphism and compile time polymorphism, multiple inheritance, how to achieve multiple inheritance in Java, how CPP handles multiple inheritance, Class vs Instance, access modifiers, describe architectures like MVC and micro services , about load balancing , database replication (why use database replication ?)view vs table (DB), What is rollback?, how do you interact with database in springboot, AngularJS vs Angular, an algorithm to find the closest integer to a given integer
 Questions regarding what I did in my intership, technologies used,
 Familiar languges
 Projects I have done. Show web application project part (Github)
 OOP concepts
-Algorithm to get largest prime number in an array and explain it
-Code to fiend secondmax in array"
+
 Explain python lists, tuples, sets and dict, python path virtualenv
 OOP concepts
 React DOM
@@ -539,22 +515,14 @@ OOP concepts (Encapsulation, Polumorphism, Method Overloading and Overriding, Ge
 Implement a class in Python"
 Explain intern project, explain final year project, oop concepts, program to reverse an array,analytical question. java vs c , performance of a program
 FYP and the progress so far
-Finding if a string is a palindrome -> optimizing the code further
 IQ based coding question(easy)
 Familiarity with programming languages and the projects that I have used those in"
 Explain final year project, Explain any other project you prefer, Types in Javascript, Asked about AWS services, DynamoDB.
 Gave 3 simple questions to code in a prefered language
 Questions related to research
-Asked about react hooks, state,
-Compare Angular vs React
+
 Asked about intern project and technologies
 Asked about final year project and technologies and some more questions
-Linked list and doubly linked list
-how a deletion works in a middle node of a double linked list and write the pseudocode
-reverse a string (pseudocode)
-find the largest number in an array (pseudocode)
-find the second largest in an array (pseudocode)
+
 what kind of projects ypu prefer to work with"
 projects on git, projects other than university projects, angular vs react questions regarding the technologies used in the projects, fyp
-gsoc or any other projects than university stuff, extra curriculr , leadership and other special things I have done, why not company I did intern
-what you know about the company, family background

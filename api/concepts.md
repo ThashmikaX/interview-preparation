@@ -7,3 +7,5 @@ HTTP methods - get, post, put/ delete
 rest url and status codes -> 200 for success, /books for adding a resource
 ACID properties
 Rest apis, PUT vs POST vs PATCH
+rest principles
+HTTP verbs and appropriate status codes for scenarios

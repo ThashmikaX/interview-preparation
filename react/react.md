@@ -212,3 +212,11 @@ What is the latest version of React
 Practice DOM manipulation before doing the assessment (Event binding, removing and adding nodes, changing html attrivutes, etc)
 React promises
 Questions about react
+What is the difference between VueJS and ReactJS
+What is a Single Page Application - SPA
+What React Virtual DOM
+Asked about react hooks, state,
+Compare Angular vs React
+What are the frontend techs u have used
+Then some questions on angular (featues,components,command for create component)
+Some questions on react(advantages,virtual DOM,Real DOM , functional and class component)

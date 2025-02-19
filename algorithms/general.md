@@ -14,3 +14,16 @@ given a sum of money n fine the minimun number of coins that need to be dispense
 reverse array without using a temp variable
 given a string find the length of the largest substring without any repeating characters e.g: - abccccadcc -> 3 abc, cad
 given an array of length n and an integer m, return the elements greater than n/m
+Flower and Lake problem
+Three labeled buckets problem
+Write an algorithm to find all the combinations of an array elements - an array consists of 3 elements
+Linked list and doubly linked list
+how a deletion works in a middle node of a double linked list and write the pseudocode
+reverse a string (pseudocode)
+find the largest number in an array (pseudocode)
+find the second largest in an array (pseudocode)
+Finding if a string is a palindrome -> optimizing the code further
+Algorithm to get largest prime number in an array and explain it
+Swap two unsigned integers without tempory variable.
+(You have 9 balls, equally big, equally heavy - except for one, which is a little heavier.
+How would you identify the heavier ball if you could use a pair of balance scales only twice?)"

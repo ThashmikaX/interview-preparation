@@ -28,3 +28,7 @@ What are relations you have defined in your project (from one of the projects - 
 Explain relationships among said relations
 What type of multiplicity they consists of
 How to handle many to many relationships
+ACID properties
+where to store the primary key in a one to many scenario
+write a sql query to a given scenario (sorting)
+when to use sql and nosql databases

@@ -28,3 +28,11 @@ Abstract vs Interface
 What is single responsibility principle
 Why use single responsibility
 Advantages of inheritance hierachy
+Have you used OOP in your projects
+What is Inheritance
+Does Java support multiple inheritance
+What is the alternative to do do the Multiple Inheritance
+What is a abstract class
+Difference between abstract class and interface
+Why do we need abstract classes
+What is a concrete implementation of a method
