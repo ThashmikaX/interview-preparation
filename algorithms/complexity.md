@@ -1,1 +1,3 @@
-Explain a sorting algorithm - time space complexity
+# Explain time complexity
+
+# Explain space complexity
