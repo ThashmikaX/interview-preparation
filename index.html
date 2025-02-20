@@ -2,34 +2,169 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Markdown Viewer</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/11.1.0/marked.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directory Listing</title>
     <style>
         body { font-family: Arial, sans-serif; padding: 20px; }
-        pre { background-color: #f4f4f4; padding: 10px; border-radius: 5px; }
-        code { font-family: monospace; color: #d63384; }
+        h1 { color: #333; }
+        ul { list-style-type: none; padding: 0; }
+        li { margin: 10px 0; }
+        a { text-decoration: none; color: #007bff; cursor: pointer; }
+        a:hover { text-decoration: underline; }
+        #file-list { margin-top: 20px; }
+        #file-list ul { list-style-type: none; padding: 0; }
+        #file-list li { margin: 5px 0; }
     </style>
 </head>
-<body>
-    <h1>Markdown Content</h1>
-    <div id="markdown-content">Loading...</div>
+<script>
 
-    <script>
-        async function loadMarkdown() {
-            try {
-                const response = await fetch('https://thil4n.github.io/interview-preparation/questions');
-                console.log(response.text());
-                
-                // const markdownText = await response.text();
-                // const htmlContent = marked.parse(markdownText);
-                // document.getElementById('markdown-content').innerHTML = htmlContent;
-            } catch (error) {
-                // document.getElementById('markdown-content').innerHTML = "Failed to load markdown file.";
-                // console.error("Error loading markdown:", error);
-            }
-        }
-
-        loadMarkdown();
-    </script>
-</body>
-</html>
+const dirs = {
+"agile"
+: [
+"agile/questions.md"
+ ,
+], 
+"algorithms"
+: [
+"algorithms/complexity.md"
+ ,
+"algorithms/general.md"
+ ,
+"algorithms/recursion.md"
+ ,
+"algorithms/sorting.md"
+ ,
+], 
+"api"
+: [
+"api/concepts.md"
+ ,
+"api/graphql.md"
+ ,
+"api/kafka.md"
+ ,
+"api/rest.md"
+ ,
+"api/soap.md"
+ ,
+"api/streaming.md"
+ ,
+], 
+"cloud"
+: [
+"cloud/concepts.md"
+ ,
+"cloud/docker.md"
+ ,
+], 
+"cryptography"
+: [
+"cryptography/concepts.md"
+ ,
+"cryptography/rsa.md"
+ ,
+], 
+"data-structures"
+: [
+"data-structures/array.md"
+ ,
+"data-structures/heap.md"
+ ,
+"data-structures/stack.md"
+ ,
+], 
+"database"
+: [
+"database/concepts.md"
+ ,
+"database/mongodb.md"
+ ,
+"database/normalization.md"
+ ,
+"database/sql.md"
+ ,
+], 
+"design-patterns"
+: [
+"design-patterns/basics.md"
+ ,
+], 
+"devops"
+: [
+"devops/concepts.md"
+ ,
+], 
+"git"
+: [
+"git/basics.md"
+ ,
+"git/commands.md"
+ ,
+], 
+"hr"
+: [
+"hr/quiestions.md"
+ ,
+], 
+"java"
+: [
+"java/questions.md"
+ ,
+], 
+"javascript"
+: [
+"javascript/questions.md"
+ ,
+], 
+"linux"
+: [
+"linux/questions.md"
+ ,
+], 
+"networking"
+: [
+"networking/http.md"
+ ,
+"networking/osi.md"
+ ,
+"networking/ssh.md"
+ ,
+"networking/ssl.md"
+ ,
+"networking/tcp.md"
+ ,
+], 
+"node"
+: [
+"node/questions.md"
+ ,
+], 
+"oop"
+: [
+"oop/abstraction.md"
+ ,
+"oop/basics.md"
+ ,
+"oop/encapsulation.md"
+ ,
+"oop/inheritance.md"
+ ,
+"oop/polimpohism.md"
+ ,
+], 
+"react"
+: [
+"react/react.md"
+ ,
+], 
+"spring"
+: [
+"spring/questions.md"
+ ,
+], 
+"testing"
+: [
+"testing/questions.md"
+ ,
+], 
+};
