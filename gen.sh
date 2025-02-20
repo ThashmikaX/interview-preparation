@@ -11,23 +11,11 @@ cat <<EOF > $OUTPUT_FILE
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Directory Listing</title>
-    <style>
-        body { font-family: Arial, sans-serif; padding: 20px; }
-        h1 { color: #333; }
-        ul { list-style-type: none; padding: 0; }
-        li { margin: 10px 0; }
-        a { text-decoration: none; color: #007bff; cursor: pointer; }
-        a:hover { text-decoration: underline; }
-        #file-list { margin-top: 20px; }
-        #file-list ul { list-style-type: none; padding: 0; }
-        #file-list li { margin: 5px 0; }
-    </style>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
 <script>
-
+const dirs = {
 EOF
-
-echo "const dirs = {" >> $OUTPUT_FILE
 
 # Find all directories (excluding hidden and .git folder)
 for dir in */ ; do
@@ -37,19 +25,35 @@ for dir in */ ; do
     # Remove trailing slash from directory name
     dir_name="${dir%/}"
 
-    echo \"$dir_name\" >> $OUTPUT_FILE
-    echo ": [" >>  $OUTPUT_FILE
+    # Start adding the directory to the JavaScript object
+    echo "    \"$dir_name\": [" >> $OUTPUT_FILE
 
     # List each .md file in the directory
+    first=true
     for file in "$dir_name"/*.md; do
         # Check if the file exists to avoid errors if no .md files are found
         if [[ -f "$file" ]]; then
-            echo \"$file\" >> $OUTPUT_FILE
-            echo " ," >> $OUTPUT_FILE
+            # Add a comma only if it's not the first file
+            if [ "$first" = true ]; then
+                first=false
+            else
+                echo "        ," >> $OUTPUT_FILE
+            fi
+
+            # Add the file name to the directory list
+            echo "        \"$file\"" >> $OUTPUT_FILE
         fi
     done
-    echo  "], " >> $OUTPUT_FILE
+
+    # Close the directory list
+    echo "    ]," >> $OUTPUT_FILE
 done
 
+# Close the dirs object and the script tag
 echo "};" >> $OUTPUT_FILE
+echo "</script>" >> $OUTPUT_FILE
+
+echo "Generated $OUTPUT_FILE"
+
+
 
