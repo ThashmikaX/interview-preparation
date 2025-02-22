@@ -1,5 +1,7 @@
 # Code to get the duplicate element of an array
 
+# An array with 1 to 100 numbers but one number is missing. Algorithm to find the missing number
+
 # stack and heap
 
 # Write an algorithm to reverse an array

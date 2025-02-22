@@ -4,22 +4,24 @@ Time complexity refers to the amount of time an algorithm takes to complete as a
 
 # What are the annotations used to indicate time complexity
 
-- Big O notation
+-   Big O notation
+-   Big Omega notation
+-   Big Pi notation
 
 # Explain Common time complexities with respect to Big O notation
 
-- O(1): Constant time
-  the execution time does not depend on the input size.
-- O(log n): Logarithmic time
-  the execution time grows logarithmically as the input size increases (e.g., binary search).
-- O(n): Linear time
-  the execution time grows linearly with the input size (e.g., iterating through a list).
-- O(n log n): Log-linear time
-  common for more efficient sorting algorithms like Merge Sort and Quick Sort.
-- O(n²): Quadratic time
-  the execution time grows quadratically with the input size (e.g., bubble sort, selection sort).
-- O(2ⁿ): Exponential time
-  the execution time doubles with each additional input element (e.g., brute-force solutions to the traveling salesman problem).
+-   O(1): Constant time
+    the execution time does not depend on the input size.
+-   O(log n): Logarithmic time
+    the execution time grows logarithmically as the input size increases (e.g., binary search).
+-   O(n): Linear time
+    the execution time grows linearly with the input size (e.g., iterating through a list).
+-   O(n log n): Log-linear time
+    common for more efficient sorting algorithms like Merge Sort and Quick Sort.
+-   O(n²): Quadratic time
+    the execution time grows quadratically with the input size (e.g., bubble sort, selection sort).
+-   O(2ⁿ): Exponential time
+    the execution time doubles with each additional input element (e.g., brute-force solutions to the traveling salesman problem).
 
 # Explain space Complexity:
 
