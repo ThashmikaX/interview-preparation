@@ -2,23 +2,23 @@
 
 This repository is organized into different topics to help you prepare for technical interviews:
 
-agile: Concepts and methodologies in Agile development
+- agile: Concepts and methodologies in Agile development
 
-algorithms: Common algorithms with explanations and implementations
+- algorithms: Common algorithms with explanations and implementations
 
-api: API design principles and best practices
+- api: API design principles and best practices
 
-cloud: Cloud computing concepts and services (AWS, Azure, GCP)
+- cloud: Cloud computing concepts and services (AWS, Azure, GCP)
 
-cryptography: Cryptographic techniques and protocols
+- cryptography: Cryptographic techniques and protocols
 
-data-structures: Essential data structures and their operations
+- data-structures: Essential data structures and their operations
 
-database: Database design, queries, and optimization techniques
+- database: Database design, queries, and optimization techniques
 
-design-patterns: Common design patterns and their use cases
+- design-patterns: Common design patterns and their use cases
 
-devops: DevOps practices and CI/CD pipeline concepts
+- devops: DevOps practices and CI/CD pipeline concepts
 
 # 🚀 How to Use
 
