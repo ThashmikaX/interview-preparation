@@ -1,16 +1,14 @@
-# Complexity
-
-## Explain time Complexity:
+# Explain time Complexity:
 
 Time complexity refers to the amount of time an algorithm takes to complete as a function of the size of the input. It helps us understand how the running time of an algorithm grows as the input size increases. Time complexity is typically expressed in Big O notation (O(f(n))), where f(n) represents how the time of execution grows with respect to the input size n.
 
-## What are the annotations used to indicate time complexity
+# What are the annotations used to indicate time complexity
 
 -   Big O notation
 -   Big Omega notation
 -   Big Pi notation
 
-## Explain Common time complexities with respect to Big O notation
+# Explain Common time complexities with respect to Big O notation
 
 -   O(1): Constant time
     the execution time does not depend on the input size.
@@ -25,7 +23,7 @@ Time complexity refers to the amount of time an algorithm takes to complete as a
 -   O(2ⁿ): Exponential time
     the execution time doubles with each additional input element (e.g., brute-force solutions to the traveling salesman problem).
 
-## Explain space Complexity:
+# Explain space Complexity:
 
 Space complexity refers to the amount of memory an algorithm uses as a function of the input size. It considers both the space needed for input data and the additional space needed for variables, data structures, and the execution stack during the algorithm's execution.
 
@@ -44,113 +42,55 @@ A function that uses an extra array to store results (e.g., dynamic programming)
 A function that operates in-place without allocating extra space (e.g., using two pointers to reverse an array) may have O(1) space complexity.
 Possible Interview Questions:
 
-## Explain the difference between time complexity and space complexity.
+# Explain the difference between time complexity and space complexity.
 
 Time complexity refers to the amount of time an algorithm takes to complete, while space complexity refers to the amount of memory it uses.
 
-## How do you determine the time complexity of an algorithm?
+# How do you determine the time complexity of an algorithm?
 
 Analyze the code or algorithm step by step, counting the number of operations based on input size, and then express that count using Big O notation.
 
-## What is the time complexity of accessing an element in an array?
+# What is the time complexity of accessing an element in an array?
 
 O(1) because accessing an element by its index is a constant-time operation.
 
-## What is the space complexity of an algorithm that uses recursion?
+# What is the space complexity of an algorithm that uses recursion?
 
 Recursion typically adds space to the call stack. The space complexity would depend on the maximum depth of recursion, which is often O(n) for linear recursion or O(log n) for logarithmic recursion.
 
-## Explain the time complexity of sorting algorithms like Merge Sort or Quick Sort.
+# Explain the time complexity of sorting algorithms like Merge Sort or Quick Sort.
 
 Merge Sort has time complexity O(n log n), and Quick Sort has an average time complexity of O(n log n), though it can degrade to O(n²) in the worst case.
 
-## What is the time complexity of searching in a balanced binary search tree (BST)?
+# What is the time complexity of searching in a balanced binary search tree (BST)?
 
 O(log n) because a balanced BST reduces the search space by half at each step, similar to binary search.
 
-## How would you optimize the space complexity of an algorithm?
+# How would you optimize the space complexity of an algorithm?
 
 Use in-place algorithms, reduce unnecessary data storage, and avoid recursive calls that create large call stacks when possible.
 
-## Can you explain the space complexity of a recursive function?
+# Can you explain the space complexity of a recursive function?
 
 The space complexity of a recursive function is proportional to the maximum depth of the recursion stack, i.e., O(n) for linear recursion or O(log n) for logarithmic recursion.
 
-## What is the time complexity of iterating over a 2D array?
+# What is the time complexity of iterating over a 2D array?
 
 O(n \* m) where n is the number of rows and m is the number of columns, as you need to iterate through all elements.
 
-## How do you evaluate the performance of an algorithm with both time and space constraints?
+# How do you evaluate the performance of an algorithm with both time and space constraints?
 
 You analyze both aspects independently using Big O notation for time and space complexity, and then choose the algorithm that fits the specific constraints of your application.
 
-## Give an example of a situation where space complexity is more critical than time complexity.
+# Give an example of a situation where space complexity is more critical than time complexity.
 
 In embedded systems or mobile devices with limited memory resources, optimizing space complexity might be more important than time complexity.
 
-## What is the time complexity of the breadth-first search (BFS) algorithm?
+# What is the time complexity of the breadth-first search (BFS) algorithm?
 
 O(V + E), where V is the number of vertices and E is the number of edges in the graph, because BFS explores all vertices and edges.
 
-## Can time complexity be improved at the cost of space complexity?
+# Can time complexity be improved at the cost of space complexity?
 
 Yes, in some cases. For example, dynamic programming techniques trade off space (storing intermediate results) for improved time complexity compared to brute force.
 These questions help assess a candidate’s understanding of algorithmic efficiency and their ability to evaluate trade-offs between time and space.
-
-# Writing Algorithms
-
-## Code to get the duplicate element of an array
-
-## An array with 1 to 100 numbers but one number is missing. Algorithm to find the missing number
-
-## stack and heap
-
-## Write an algorithm to reverse an array
-
-## Binary tree and Binary search
-
-## parenthesis checking with pseudo code
-
-## How to identify median in an unsorted array,
-
-## Algorithm/ pseudo code to get the missing prime number of a given prime number array
-
-## how to find the missing value in array that contains numbers from 1 to 100
-
-## If there are 2 buckets that contains same set of numbers but 2 are missing from one bucket, how do you find those 2 numbers? (hash table)
-
-## Implement a program to get the two largest numbers in an integer array.
-
-## Algorithm to return T or F if the number <5,
-
-## given a sum of money n fine the minimum number of coins that need to be dispensed
-
-## reverse array without using a temp variable
-
-## given a string find the length of the largest substring without any repeating characters e.g: - abccccadcc -> 3 abc, cad
-
-## given an array of length n and an integer m, return the elements greater than n/m
-
-## Flower and Lake problem
-
-## Three labeled buckets problem
-
-## Write an algorithm to find all the combinations of an array elements - an array consists of 3 elements
-
-## Linked list and doubly linked list
-
-## how a deletion works in a middle node of a double linked list and write the pseudocode
-
-## reverse a string (pseudocode)
-
-## find the largest number in an array (pseudocode)
-
-## find the second largest in an array (pseudocode)
-
-## Finding if a string is a palindrome -> optimizing the code further
-
-## Algorithm to get largest prime number in an array and explain it
-
-## Swap two unsigned integers without temporary variable.
-
-## You have 9 balls, equally big, equally heavy - except for one, which is a little heavier. How would you identify the heavier ball if you could use a pair of balance scales only twice?
