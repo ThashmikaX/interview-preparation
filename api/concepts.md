@@ -99,29 +99,32 @@ A RESTful API follows REST (Representational State Transfer) principles, using s
 
 ## What is API mocking?
 
-API mocking simulates API responses without calling the actual service. It is useful for testing and development when the real API is unavailable.
+API mocking simulates API responses without calling the actual service.
+It is useful for testing and development when the real API is unavailable.
 
 ## What are idempotent methods in APIs?
 
 Idempotent methods produce the same result no matter how many times the request is repeated. Examples: GET, PUT, DELETE. Non-idempotent: POST.
 
-How do you monitor API performance?
+## How do you monitor API performance?
 
 Monitoring API performance involves tracking metrics like response times, error rates, and throughput using tools like Prometheus, Grafana, or API Gateway analytics.
 
 ## What is the difference between public and private APIs?
 
-Public APIs: Accessible to external developers and third parties.
+-- Public APIs: Accessible to external developers and third parties.
 
-Private APIs: Restricted to internal use within an organization.
+-- Private APIs: Restricted to internal use within an organization.
 
 ## What is an API response payload?
 
-An API response payload is the data returned by the API in response to a client request. It usually comes in JSON or XML format.
+An API response payload is the data returned by the API in response to a client request.
+It usually comes in JSON or XML format.
 
-How do you ensure backward compatibility in APIs?
+## How do you ensure backward compatibility in APIs?
 
-Maintain backward compatibility by versioning the API, avoiding breaking changes, and deprecating old features gradually with clear documentation.
+Maintain backward compatibility by versioning the API, avoiding breaking changes,
+and deprecating old features gradually with clear documentation.
 
 ## What are RESTful best practices?
 
@@ -137,8 +140,10 @@ Provide detailed API documentation.
 
 ## What is API pagination?
 
-API pagination handles large datasets by breaking them into smaller pages. Common techniques include using limit and offset parameters or cursors.
+API pagination handles large datasets by breaking them into smaller pages.
+Common techniques include using limit and offset parameters or cursors.
 
 ## What is a callback URL?
 
-A callback URL is the endpoint where an API sends asynchronous responses or event notifications. It is commonly used in OAuth flows and webhooks.
+A callback URL is the endpoint where an API sends asynchronous responses or event notifications.
+It is commonly used in OAuth flows and webhooks.
