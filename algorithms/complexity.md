@@ -25,13 +25,17 @@ Time complexity refers to the amount of time an algorithm takes to complete as a
 
 # Explain space Complexity:
 
-Space complexity refers to the amount of memory an algorithm uses as a function of the input size. It considers both the space needed for input data and the additional space needed for variables, data structures, and the execution stack during the algorithm's execution.
+Space complexity refers to the amount of memory an algorithm uses as a function of the input size.
+It considers both the space needed for input data and the additional space needed for variables,
+data structures, and the execution stack during the algorithm's execution.
 
 Space complexity is also expressed in Big O notation, similar to time complexity. Key categories include:
 
 O(1): Constant space – the space required does not depend on the input size.
-O(n): Linear space – the space required grows linearly with the input size (e.g., an algorithm that stores all elements of an array).
-O(n²): Quadratic space – the space required grows quadratically (e.g., a 2D matrix for an algorithm like Floyd-Warshall for shortest paths).
+O(n): Linear space – the space required grows linearly with the input size (e.g., an algorithm that
+stores all elements of an array).
+O(n²): Quadratic space – the space required grows quadratically (e.g., a 2D matrix for an algorithm
+like Floyd-Warshall for shortest paths).
 Examples:
 
 Time Complexity Example:
@@ -60,7 +64,8 @@ Recursion typically adds space to the call stack. The space complexity would dep
 
 # Explain the time complexity of sorting algorithms like Merge Sort or Quick Sort.
 
-Merge Sort has time complexity O(n log n), and Quick Sort has an average time complexity of O(n log n), though it can degrade to O(n²) in the worst case.
+Merge Sort has time complexity O(n log n), and Quick Sort has an average time complexity of O(n log n),
+though it can degrade to O(n²) in the worst case.
 
 # What is the time complexity of searching in a balanced binary search tree (BST)?
 
@@ -68,27 +73,33 @@ O(log n) because a balanced BST reduces the search space by half at each step, s
 
 # How would you optimize the space complexity of an algorithm?
 
-Use in-place algorithms, reduce unnecessary data storage, and avoid recursive calls that create large call stacks when possible.
+Use in-place algorithms, reduce unnecessary data storage, and avoid recursive calls that
+create large call stacks when possible.
 
 # Can you explain the space complexity of a recursive function?
 
-The space complexity of a recursive function is proportional to the maximum depth of the recursion stack, i.e., O(n) for linear recursion or O(log n) for logarithmic recursion.
+The space complexity of a recursive function is proportional to the maximum depth of
+the recursion stack, i.e., O(n) for linear recursion or O(log n) for logarithmic recursion.
 
 # What is the time complexity of iterating over a 2D array?
 
-O(n \* m) where n is the number of rows and m is the number of columns, as you need to iterate through all elements.
+O(n \* m) where n is the number of rows and m is the number of columns,
+as you need to iterate through all elements.
 
 # How do you evaluate the performance of an algorithm with both time and space constraints?
 
-You analyze both aspects independently using Big O notation for time and space complexity, and then choose the algorithm that fits the specific constraints of your application.
+You analyze both aspects independently using Big O notation for time and space complexity,
+and then choose the algorithm that fits the specific constraints of your application.
 
 # Give an example of a situation where space complexity is more critical than time complexity.
 
-In embedded systems or mobile devices with limited memory resources, optimizing space complexity might be more important than time complexity.
+In embedded systems or mobile devices with limited memory resources,
+optimizing space complexity might be more important than time complexity.
 
 # What is the time complexity of the breadth-first search (BFS) algorithm?
 
-O(V + E), where V is the number of vertices and E is the number of edges in the graph, because BFS explores all vertices and edges.
+O(V + E), where V is the number of vertices and E is the number of edges in the graph,
+because BFS explores all vertices and edges.
 
 # Can time complexity be improved at the cost of space complexity?
 
