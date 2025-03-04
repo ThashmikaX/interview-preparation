@@ -4,19 +4,19 @@ An API (Application Programming Interface) is a set of rules and protocols that 
 
 ## What are the different types of APIs?
 
--   Open APIs (Public APIs): Available to external developers and third parties.
+- Open APIs (Public APIs): Available to external developers and third parties.
 
--   Internal APIs (Private APIs): Restricted to internal systems and teams.
+- Internal APIs (Private APIs): Restricted to internal systems and teams.
 
--   Partner APIs: Shared with specific business partners with controlled access.
+- Partner APIs: Shared with specific business partners with controlled access.
 
--   Composite APIs: Combine multiple API calls into a single request for efficiency.
+- Composite APIs: Combine multiple API calls into a single request for efficiency.
 
 ## What is the difference between synchronous and asynchronous APIs?
 
--   Synchronous APIs: The client waits for the server to respond before continuing execution.
+- Synchronous APIs: The client waits for the server to respond before continuing execution.
 
--   Asynchronous APIs: The client does not wait; it receives the response later through callbacks or events.
+- Asynchronous APIs: The client does not wait; it receives the response later through callbacks or events.
 
 ## What is an API endpoint?
 
@@ -40,9 +40,9 @@ They enable real-time communication by sending POST requests to a specified endp
 
 ## What is the difference between REST APIs and SOAP APIs?
 
--   REST APIs: Use HTTP methods (GET, POST, etc.), lightweight, and commonly use JSON.
+- REST APIs: Use HTTP methods (GET, POST, etc.), lightweight, and commonly use JSON.
 
--   SOAP APIs: Use XML format, follow a strict protocol (WS-Security), and are more complex.
+- SOAP APIs: Use XML format, follow a strict protocol (WS-Security), and are more complex.
 
 ## What is an API gateway?
 
@@ -55,15 +55,15 @@ API documentation provides detailed information about how to use the API, includ
 
 ## What are the common API authentication methods?
 
--   API Keys
+- API Keys
 
--   OAuth 2.0
+- OAuth 2.0
 
--   Basic Authentication
+- Basic Authentication
 
--   Bearer Tokens
+- Bearer Tokens
 
--   JWT (JSON Web Tokens)
+- JWT (JSON Web Tokens)
 
 ## What is an SDK?
 
