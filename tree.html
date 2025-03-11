@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tree View</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-8">
+  <div class="max-w-lg mx-auto bg-white shadow-lg rounded-lg p-6">
+    <h1 class="text-2xl font-bold mb-4">File Explorer</h1>
+
+    <ul id="tree-view" class="space-y-2"></ul>
+  </div>
+
+  <script>
+    const data = {
+      "Projects": ["index.html", "style.css", "script.js"],
+      "Documents": ["resume.pdf", "report.docx"]
+    };
+
+    function createTreeView(container, data) {
+      for (const [key, value] of Object.entries(data)) {
+        const li = document.createElement('li');
+
+        if (Array.isArray(value)) {
+          li.innerHTML = `
+            <button class="folder flex items-center space-x-2" onclick="toggleFolder(this)">
+              <span>📁</span>
+              <span class="font-semibold">${key}</span>
+            </button>
+          `;
+
+          const ul = document.createElement('ul');
+          ul.className = 'pl-8 hidden';
+          value.forEach(item => {
+            if (typeof item === 'string') {
+              ul.innerHTML += `<li class="mt-2">📄 ${item}</li>`;
+            } else {
+              createTreeView(ul, item);
+            }
+          });
+
+          li.appendChild(ul);
+        }
+
+        container.appendChild(li);
+      }
+    }
+
+    function toggleFolder(element) {
+      const nextUl = element.nextElementSibling;
+      if (nextUl) {
+        nextUl.classList.toggle('hidden');
+      }
+    }
+
+    const treeView = document.getElementById('tree-view');
+    createTreeView(treeView, data);
+  </script>
+</body>
+</html>
