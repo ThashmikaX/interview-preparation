@@ -1,21 +1,10 @@
 #!/bin/bash
 
-# Set the output HTML file
-OUTPUT_FILE="index.html"
+OUTPUT_FILE="data.json"
 
-# Start the HTML file
-cat <<EOF > $OUTPUT_FILE
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Directory Listing</title>
-    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-</head>
-<script>
-const dirs = {
-EOF
+# Start the JSON object
+echo "{" >> $OUTPUT_FILE
+
 
 # Find all directories (excluding hidden and .git folder)
 for dir in */ ; do
@@ -49,9 +38,9 @@ for dir in */ ; do
     echo "    ]," >> $OUTPUT_FILE
 done
 
-# Close the dirs object and the script tag
-echo "};" >> $OUTPUT_FILE
-echo "</script>" >> $OUTPUT_FILE
+# Close the JSON object
+
+echo "}" >> $OUTPUT_FILE
 
 echo "Generated $OUTPUT_FILE"
 

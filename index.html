@@ -3,20 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Directory Tree View</title>
+    <title>Directory Listing</title>
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-    <style>
-        .folder {
-            cursor: pointer;
-        }
-        .folder ul {
-            display: none;
-            margin-left: 20px;
-        }
-        .folder.open ul {
-            display: block;
-        }
-    </style>
 </head>
 <script>
 const dirs = {
@@ -24,36 +12,57 @@ const dirs = {
         "agile/questions.md"
     ],
     "algorithms": [
-        "algorithms/complexity.md",
-        "algorithms/general.md",
-        "algorithms/recursion.md",
+        "algorithms/complexity.md"
+        ,
+        "algorithms/questions.md"
+        ,
+        "algorithms/recursion.md"
+        ,
         "algorithms/sorting.md"
     ],
     "api": [
-        "api/concepts.md",
-        "api/graphql.md",
-        "api/kafka.md",
-        "api/rest.md",
-        "api/soap.md",
+        "api/concepts.md"
+        ,
+        "api/graphql.md"
+        ,
+        "api/kafka.md"
+        ,
+        "api/rest.md"
+        ,
+        "api/soap.md"
+        ,
         "api/streaming.md"
     ],
     "cloud": [
-        "cloud/concepts.md",
+        "cloud/concepts.md"
+        ,
         "cloud/docker.md"
     ],
     "cryptography": [
-        "cryptography/concepts.md",
+        "cryptography/concepts.md"
+        ,
         "cryptography/rsa.md"
     ],
     "data-structures": [
-        "data-structures/array.md",
-        "data-structures/heap.md",
+        "data-structures/array.md"
+        ,
+        "data-structures/heap.md"
+        ,
         "data-structures/stack.md"
     ],
     "database": [
-        "database/concepts.md",
-        "database/mongodb.md",
-        "database/normalization.md",
+        "database/acid.md"
+        ,
+        "database/concepts.md"
+        ,
+        "database/indexing.md"
+        ,
+        "database/normalization.md"
+        ,
+        "database/nosql.md"
+        ,
+        "database/scenario.md"
+        ,
         "database/sql.md"
     ],
     "design-patterns": [
@@ -63,8 +72,11 @@ const dirs = {
         "devops/concepts.md"
     ],
     "git": [
-        "git/basics.md",
+        "git/basics.md"
+        ,
         "git/commands.md"
+        ,
+        "git/confilcts.md"
     ],
     "hr": [
         "hr/questions.md"
@@ -79,20 +91,28 @@ const dirs = {
         "linux/questions.md"
     ],
     "networking": [
-        "networking/http.md",
-        "networking/osi.md",
-        "networking/ssh.md",
-        "networking/ssl.md",
+        "networking/http.md"
+        ,
+        "networking/osi.md"
+        ,
+        "networking/ssh.md"
+        ,
+        "networking/ssl.md"
+        ,
         "networking/tcp.md"
     ],
     "node": [
         "node/questions.md"
     ],
     "oop": [
-        "oop/abstraction.md",
-        "oop/basics.md",
-        "oop/encapsulation.md",
-        "oop/inheritance.md",
+        "oop/abstraction.md"
+        ,
+        "oop/basics.md"
+        ,
+        "oop/encapsulation.md"
+        ,
+        "oop/inheritance.md"
+        ,
         "oop/polymorphism.md"
     ],
     "react": [
@@ -105,52 +125,4 @@ const dirs = {
         "testing/questions.md"
     ],
 };
-
-function generateDirectoryTree() {
-    const container = document.getElementById('dir-tree');
-    
-    // Create the root folder
-    const rootFolder = document.createElement('ul');
-    
-    for (const dir in dirs) {
-        if (dirs.hasOwnProperty(dir)) {
-            // Create folder for each directory
-            const folder = document.createElement('li');
-            folder.classList.add('folder');
-            const folderName = document.createElement('span');
-            folderName.textContent = dir;
-            folder.appendChild(folderName);
-            
-            // Create a sublist for files in the directory
-            const fileList = document.createElement('ul');
-            dirs[dir].forEach(file => {
-                const fileItem = document.createElement('li');
-                const fileLink = document.createElement('a');
-                fileLink.href = `#`; // Link to file, change if needed
-                fileLink.textContent = file;
-                fileItem.appendChild(fileLink);
-                fileList.appendChild(fileItem);
-            });
-            folder.appendChild(fileList);
-            
-            // Add click event to toggle folder open/close
-            folderName.addEventListener('click', () => {
-                folder.classList.toggle('open');
-            });
-            
-            rootFolder.appendChild(folder);
-        }
-    }
-    
-    container.appendChild(rootFolder);
-}
-
-document.addEventListener('DOMContentLoaded', generateDirectoryTree);
 </script>
-
-<body class="bg-red-300">
-    <div class="w-[80%] mx-auto">
-        <div id="dir-tree" class="flex flex-wrap"></div>
-    </div>
-</body>
-</html>
