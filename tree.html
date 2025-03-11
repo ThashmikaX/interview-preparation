@@ -14,15 +14,21 @@
   </div>
 
   <script>
-    const data = {
-      "Projects": ["index.html", "style.css", "script.js"],
-      "Documents": ["resume.pdf", "report.docx"]
-    };
-
+    async function loadTreeView() {
+      try {
+        const response = await fetch('data.json');
+        const data = await response.json();
+        const treeView = document.getElementById('tree-view');
+        createTreeView(treeView, data);
+      } catch (error) {
+        console.error('Error loading JSON:', error);
+      }
+    }
+  
     function createTreeView(container, data) {
       for (const [key, value] of Object.entries(data)) {
         const li = document.createElement('li');
-
+  
         if (Array.isArray(value)) {
           li.innerHTML = `
             <button class="folder flex items-center space-x-2" onclick="toggleFolder(this)">
@@ -30,7 +36,7 @@
               <span class="font-semibold">${key}</span>
             </button>
           `;
-
+  
           const ul = document.createElement('ul');
           ul.className = 'pl-8 hidden';
           value.forEach(item => {
@@ -40,23 +46,23 @@
               createTreeView(ul, item);
             }
           });
-
+  
           li.appendChild(ul);
         }
-
+  
         container.appendChild(li);
       }
     }
-
+  
     function toggleFolder(element) {
       const nextUl = element.nextElementSibling;
       if (nextUl) {
         nextUl.classList.toggle('hidden');
       }
     }
-
-    const treeView = document.getElementById('tree-view');
-    createTreeView(treeView, data);
+  
+    loadTreeView();
   </script>
+  
 </body>
 </html>
