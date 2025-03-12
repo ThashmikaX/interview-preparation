@@ -24,11 +24,11 @@
         console.error('Error loading JSON:', error);
       }
     }
-  
+
     function createTreeView(container, data) {
       for (const [key, value] of Object.entries(data)) {
         const li = document.createElement('li');
-  
+
         if (Array.isArray(value)) {
           li.innerHTML = `
             <button class="folder flex items-center space-x-2" onclick="toggleFolder(this)">
@@ -36,33 +36,37 @@
               <span class="font-semibold">${key}</span>
             </button>
           `;
-  
+
           const ul = document.createElement('ul');
           ul.className = 'pl-8 hidden';
           value.forEach(item => {
-            if (typeof item === 'string') {
-              ul.innerHTML += `<li class="mt-2">📄 ${item}</li>`;
-            } else {
-              createTreeView(ul, item);
-            }
+              const fileLi = document.createElement('li');
+              fileLi.className = 'mt-2';
+              fileLi.innerHTML = `📄 ${item}`;
+              fileLi.addEventListener('click', () => handleFileClick(key, item));
+              ul.appendChild(fileLi);
           });
-  
+
           li.appendChild(ul);
         }
-  
+
         container.appendChild(li);
       }
     }
-  
+
     function toggleFolder(element) {
       const nextUl = element.nextElementSibling;
       if (nextUl) {
         nextUl.classList.toggle('hidden');
       }
     }
-  
+
+    function handleFileClick(dir, fileName) {
+      alert(`File clicked: ${fileName} in ${dir}`);
+    }
+
     loadTreeView();
   </script>
-  
+
 </body>
 </html>
