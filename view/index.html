@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tree View</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/11.1.0/marked.min.js"></script>
   <script>
     tailwind.config = {
       theme: {
@@ -20,6 +21,19 @@
       }
     }
   </script>
+    <style>
+      .markdown-body h1 { @apply text-3xl font-bold mt-4 mb-2; }
+      .markdown-body h2 { @apply text-2xl font-semibold mt-3 mb-2; }
+      .markdown-body h3 { @apply text-xl font-semibold mt-2 mb-2; }
+      .markdown-body p { @apply mb-4; }
+      .markdown-body ul { @apply list-disc ml-6 mb-4; }
+      .markdown-body ol { @apply list-decimal ml-6 mb-4; }
+      .markdown-body pre { @apply bg-code p-4 rounded-lg overflow-x-auto mb-4; }
+      .markdown-body code { @apply bg-code text-sm text-gray-200 px-1 py-0.5 rounded; }
+      .markdown-body table { @apply w-full border-collapse mt-4 mb-4; }
+      .markdown-body th, .markdown-body td { @apply border border-gray-700 p-2 text-left; }
+      .markdown-body blockquote { @apply border-l-4 border-gray-600 pl-4 italic text-gray-400; }
+    </style>
 </head>
 <body class="bg-background p-8 text-text">
   <div class="container mx-auto shadow-lg rounded-lg p-6 flex">
@@ -27,7 +41,9 @@
       <ul id="tree-view" class="space-y-2"></ul>
     
     </div>
-    <div class="w-[75%]"></div>
+      <div id="markdown-content" class="markdown-body w-[75%] prose prose-lg max-w-none">
+        Loading...
+    </div>
       </div>
     
 
@@ -80,11 +96,27 @@
     }
 
     function handleFileClick(key, fileName) {
-      alert(`File clicked: ${fileName} in ${key}`);
+      const filePAth = `${key}/${fileName}`;
+      loadMarkdown(filePAth);
     }
+
+    async function loadMarkdown(fileName) {
+                try {
+                    const response = await fetch(
+                        fileName
+                    );
+                    const markdownText = await response.text();
+                    const htmlContent = marked.parse(markdownText);
+                    document.getElementById("markdown-content").innerHTML =
+                        htmlContent;
+                } catch (error) {
+                    document.getElementById("markdown-content").innerHTML =
+                        "<p class='text-red-500'>Failed to load markdown file.</p>";
+                    console.error("Error loading markdown:", error);
+                }
+            }
 
     loadTreeView();
   </script>
-
 </body>
 </html>

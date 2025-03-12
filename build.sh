@@ -1,6 +1,6 @@
 #!/bin/bash
 
-OUTPUT_FILE="data.json"
+OUTPUT_FILE="./view/data.json"
 
 # Start the JSON object
 echo "{" > $OUTPUT_FILE
